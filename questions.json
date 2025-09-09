@@ -1,0 +1,39 @@
+{
+  "questions": [
+    {
+      "question": "What is the capital of France?",
+      "options": ["London", "Berlin", "Paris", "Madrid"],
+      "correct_answer": "Paris",
+      "question_type": "multiple_choice",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Python is a compiled language.",
+      "options": ["True", "False"],
+      "correct_answer": "False",
+      "question_type": "true_false",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which of these is NOT a Python data type?",
+      "options": ["List", "Tuple", "Dictionary", "Array"],
+      "correct_answer": "Array",
+      "question_type": "multiple_choice",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does API stand for?",
+      "options": ["Application Programming Interface", "Advanced Programming Interface", "Application Process Integration", "Automated Programming Interface"],
+      "correct_answer": "Application Programming Interface",
+      "question_type": "multiple_choice",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Machine learning is a subset of artificial intelligence.",
+      "options": ["True", "False"],
+      "correct_answer": "True",
+      "question_type": "true_false",
+      "difficulty": "easy"
+    }
+  ]
+}
