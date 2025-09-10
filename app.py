@@ -61,7 +61,6 @@ if st.session_state.current_question == 0 and not st.session_state.user_answers:
 # Quiz logic
 if st.session_state.current_question > 0 and st.session_state.current_question <= len(questions):
     question_data = questions[st.session_state.current_question - 1]
-    
     # Display progress
     st.progress(st.session_state.current_question / len(questions))
     st.header(f"Question {st.session_state.current_question}/{len(questions)}")
